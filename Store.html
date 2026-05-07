@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Store – The Media Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🎙️ The Media Hub</h1>
+    <p class="tagline">Your Source for the Latest News & Broadcasting</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="store.html">Store</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>🛒 Our Store</h2>
+    <p>Browse our selection of professional media and journalism products.</p>
+
+    <div class="store-grid">
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1589003077984-894e133dabab?w=400" alt="Podcast Microphone"/>
+        <h3>Podcast Microphone</h3>
+        <p>Professional USB microphone for crystal clear audio recording.</p>
+        <p class="price">M 1,500.00</p>
+        <button onclick="addToCart('Podcast Microphone')">🛒 Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400" alt="Camera Equipment"/>
+        <h3>Camera Equipment</h3>
+        <p>DSLR camera kit ideal for event coverage and journalism.</p>
+        <p class="price">M 8,000.00</p>
+        <button onclick="addToCart('Camera Equipment')">🛒 Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400" alt="Journalism Books"/>
+        <h3>Journalism Books</h3>
+        <p>A curated collection of books for aspiring journalists.</p>
+        <p class="price">M 350.00</p>
+        <button onclick="addToCart('Journalism Books')">🛒 Add to Cart</button>
+      </div>
+
+    </div>
+
+    <p id="cart-msg" style="display:none; color:green; font-weight:bold; margin-top:20px;">
+      ✅ Item added to cart!
+    </p>
+
+  </main>
+
+  <footer>
