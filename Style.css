@@ -85,3 +85,26 @@ footer {
   margin-top: 60px;
   font-size: 0.9em;
 }
+/* SOCIAL MEDIA LINKS */
+.social-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 8px 15px;
+  border: 1px solid #e94560;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #e94560;
+  color: white;
+}
